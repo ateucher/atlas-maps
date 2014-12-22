@@ -1,3 +1,15 @@
+## Data
+
+The data in the csv files in the `/data` folder and in the geojson files in the `/maps` 
+folder are taken from the [BC Breeding Bird Atlas](http://www.birdatlas.bc.ca) website
+and are the property of Bird Studies Canada.
+
+## Software
+
+Except where otherwise noted, the example code provided here 
+is made available under the [OSI](http://opensource.org)-approved
+[MIT license](http://opensource.org/licenses/mit-license.html):
+
 The MIT License (MIT)
 
 Copyright (c) 2014 Andy Teucher
