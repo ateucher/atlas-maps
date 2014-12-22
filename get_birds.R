@@ -51,8 +51,8 @@ get_birds <- function(species, extent, reg_num = NULL, year = "allyrs") {
 
 breeding_colours_hex <- function(categories) {
   cols <- ifelse(categories == "CONF", "red", 
-                 ifelse(categories == "POSS", "orange", 
-                        "yellow"))
+                 ifelse(categories == "POSS", "yellow", 
+                        "orange"))
   
   hex_cols <- rgb(t(col2rgb(cols)), maxColorValue = 255)
   hex_cols

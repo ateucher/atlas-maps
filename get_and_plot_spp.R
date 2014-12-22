@@ -2,14 +2,10 @@ library("togeojson")
 library("sp")
 library("rgdal")
 library("dplyr")
-library("gistr")
 
 source("get_birds.R")
 
 # unzip("data/bcatlas_shape.zip", exdir = "data")
-
-## Get the gist
-the_gist <- gist("6af1a740783bca26dd28")
 
 ## Read in the full grid of squares
 squares <- readOGR("data", layer = "bcatlas_squares", stringsAsFactors = FALSE)
@@ -18,11 +14,10 @@ squares <- readOGR("data", layer = "bcatlas_squares", stringsAsFactors = FALSE)
 sp_codes <- read.csv("data/bc_bird_codes.csv", stringsAsFactors = FALSE)
 
 ## Set species
-# Done: "BCHU","RTHU","CAHU","CAVI","BUFF","COGO","BAGO","AWPE","LEBI",
-#       "NOGO","SWHA","ARTE","LEWO","WISA","WHWO","BRCR","PAWR","GRSP",
-#       "AMBI","SMLO","SNBU"
-# Error: "SBDO", "BTHU"
-spps <- c("WIWR", "YERA")
+spps <- c("WIWR", "YERA", "BCHU","RTHU","CAHU","CAVI","BUFF","COGO","BAGO",
+          "AWPE","LEBI","NOGO","SWHA","ARTE","LEWO","WISA","WHWO","BRCR",
+          "PAWR","GRSP","AMBI","SMLO","SNBU")
+# Errors: "SBDO", "BTHU"
 
 for (spp in spps) {
   if (!spp %in% sp_codes$sp_code) print(paste(spp, "is not a valid species code"))
@@ -45,11 +40,12 @@ for (spp in spps) {
     rbind_all() %>%
     as.data.frame()
     
-    ## Set the colours based on breeding evidence category
-    spp_squares$fill <- breeding_colours_hex(spp_squares$BE_Category)
-    spp_squares$stroke <- spp_squares$fill
-    spp_squares$Atlasser <- NULL
   }
+  
+  ## Set the colours based on breeding evidence category
+  spp_squares$fill <- breeding_colours_hex(spp_squares$BE_Category)
+  spp_squares$stroke <- spp_squares$fill
+  spp_squares$Atlasser <- NULL
   
   write.csv(spp_squares, file = csv_filename, row.names = FALSE)
   
@@ -61,7 +57,5 @@ for (spp in spps) {
   proj4string(spp_sp_squares) <- "" # Seem to need to remove the proj4string
   the_file <- paste0("maps/", spp, ".geojson")
   geojson_write(input = spp_sp_squares, file = the_file)
-  
-  edit_files(the_gist, the_file) %>% edit()
 }
 
