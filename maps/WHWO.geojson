@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "id": 9771, "properties": { "SQUARE_ID": "11NQ88", "REGION": 1, "ZONE": 11, "BLOCK_ID": "11NQ", "LINK": "http:\/\/www.birdatlas.bc.ca\/bcdata\/pdfdownload.jsp?squareID=11NQ88", "Species": "White-headed Woodpecker", "Max_BE": "H", "BE_Category": "POSS", "Sq_number": "1", "Num_PC": "", "Percent_PC": null, "Abundance": null, "Num_of_Squares": null, "fill": "#FFA500", "stroke": "#FFA500" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -115.893840178954633, 49.557309557440242 ], [ -115.755602651334968, 49.555905488062258 ], [ -115.757882120796694, 49.465978519662528 ], [ -115.895866560226878, 49.467378162513448 ], [ -115.893840178954633, 49.557309557440242 ] ] ] } },
+{ "type": "Feature", "id": 10155, "properties": { "SQUARE_ID": "11LQ24", "REGION": 5, "ZONE": 11, "BLOCK_ID": "11LQ", "LINK": "http:\/\/www.birdatlas.bc.ca\/bcdata\/pdfdownload.jsp?squareID=11LQ24", "Species": "White-headed Woodpecker", "Max_BE": "P", "BE_Category": "PROB", "Sq_number": "1", "Num_PC": "", "Percent_PC": null, "Abundance": null, "Num_of_Squares": null, "fill": "#FFFF00", "stroke": "#FFFF00" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -119.469791476304692, 49.176379961564002 ], [ -119.332703653331563, 49.179231985223552 ], [ -119.328487774329062, 49.089352423337722 ], [ -119.4653284348352, 49.086509367432853 ], [ -119.469791476304692, 49.176379961564002 ] ] ] } }
+]
+}

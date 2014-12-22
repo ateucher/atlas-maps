@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Andrew Couturier, Bird Studies Canada</origin>
+				<pubdate>August 2007</pubdate>
+				<title>British Columbia Breeding Bird Atlas Administrative Regions</title>
+				<geoform>vector digital data</geoform>
+				<onlink>\\GIS2\F$\data\projects\bcatlas\base_layers\bcbba_regions</onlink>
+				<ftname Sync="TRUE">bcatlas_regions</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>The British Columbia Breeding Bird Atlas, 2008-2012, is a multi-year project whose aim is to document the distribution and abundance of breeding birds within the province of British Columbia, Canada.  Surveying of birds is primarily done by volunteers.  This layer represents the administrative regions that are used to organize and allocate effort in the project.  Administrative regions are amalgamations of 10-km squares (the base sampling unit of the project) and were assembled on the rough basis of naturalist clubs, population distribution, and topography. </abstract>
+			<purpose>To provide a spatial framework for the collection of bird distribution and abundance data within the province of British Columbia.  </purpose>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<rngdates>
+					<begdate>2008</begdate>
+					<enddate>2012</enddate>
+				</rngdates>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-139.208365</westbc><eastbc Sync="TRUE">-114.000022</eastbc><northbc Sync="TRUE">60.077121</northbc><southbc Sync="TRUE">48.211967</southbc></bounding>
+			<lboundng><leftbc Sync="TRUE">-139.208365</leftbc><rightbc Sync="TRUE">-114.000022</rightbc><bottombc Sync="TRUE">48.211967</bottombc><topbc Sync="TRUE">60.077121</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>atlas</themekey>
+				<themekey>sampling framework</themekey>
+				<themekey>birds</themekey>
+				<themekey>abundance</themekey><themekey>distribution</themekey></theme>
+			<place>
+				<placekey>British Columbia</placekey><placekey>Canada</placekey></place>
+			<temporal>
+				<tempkey>2008-2012</tempkey>
+			</temporal>
+		</keywords>
+		<accconst>With permission from creator.</accconst>
+		<useconst>Product is provided for non-commercial use and is not to be re-sold.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Andrew Couturier</cntper>
+					<cntorg>Bird Studies Canada</cntorg>
+				</cntperp>
+				<cntpos>GIS Analyst</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>P.O. Box 160, 115 Front Street</address>
+					<city>Port Rowan</city>
+					<state>Ontario</state>
+					<postal>N0E 1M0</postal>
+					<country>Canada</country>
+				</cntaddr>
+				<cntvoice>+1-519-586-3531 ext 213</cntvoice>
+				<cntfax>+1-519-586-3532</cntfax>
+				<cntemail>acouturier@bsc-eoc.org</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<datacred>Andrew Couturier, Bird Studies Canada, 2007.</datacred>
+		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.2.1350</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="bcatlas_regions">
+				<sdtstype>Complete chain</sdtstype>
+				<ptvctcnt>3779</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm Name="label">
+				<sdtstype>Label point</sdtstype>
+				<ptvctcnt>1773</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm Name="polygon">
+				<sdtstype>GT-polygon composed of chains</sdtstype>
+				<ptvctcnt>1773</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm Name="tic">
+				<sdtstype>Point</sdtstype>
+				<ptvctcnt>12</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="bcatlas_regions"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">42</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm><esriterm Name="label"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Label</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">43</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm><esriterm Name="polygon"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">TRUE</esritopo><efeacnt Sync="TRUE">42</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm><esriterm Name="tic"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Tic</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">4</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geograph>
+				<latres>0.000000</latres>
+				<longres>0.000000</longres>
+				<geogunit>Decimal degrees</geogunit>
+			</geograph>
+			<geodetic>
+				<horizdn>North American Datum of 1983</horizdn>
+				<ellips>Geodetic Reference System 80</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn></cordsysn></horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="bcatlas_regions"><enttyp><enttypl Sync="TRUE">bcatlas_regions</enttypl><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">42</enttypc></enttyp><attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape</attrlabl><attwidth Sync="TRUE">0</attwidth><atoutwid Sync="TRUE">18</atoutwid><attrtype Sync="TRUE">Geometry</attrtype><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv><attalias Sync="TRUE">Shape</attalias><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">AREA</attrlabl><attwidth Sync="TRUE">19</attwidth><atoutwid Sync="TRUE">18</atoutwid><attrtype Sync="TRUE">Float</attrtype><attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv><attalias Sync="TRUE">AREA</attalias><atnumdec Sync="TRUE">11</atnumdec></attr><attr><attrlabl Sync="TRUE">PERIMETER</attrlabl><attwidth Sync="TRUE">19</attwidth><atoutwid Sync="TRUE">18</atoutwid><attrtype Sync="TRUE">Float</attrtype><attrdef Sync="TRUE">Perimeter of feature in internal units.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv><attalias Sync="TRUE">PERIMETER</attalias><atnumdec Sync="TRUE">11</atnumdec></attr><attr><attrlabl Sync="TRUE">BCBBA_REGI</attrlabl><attalias Sync="TRUE">BCBBA_REGI</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr><attr><attrlabl Sync="TRUE">BCBBA_RE_1</attrlabl><attalias Sync="TRUE">BCBBA_RE_1</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr><attr><attrlabl Sync="TRUE">REGION</attrlabl><attwidth Sync="TRUE">2</attwidth><atoutwid Sync="TRUE">3</atoutwid><attrtype Sync="TRUE">Number</attrtype><attrdef>Atlas administrative region identifier.  Each square was assigned to a region for the purposes of organizing coverage and facilitating review of records.</attrdef><attrdomv><rdom><rdommin>1</rdommin><rdommax>41</rdommax></rdom></attrdomv><attalias Sync="TRUE">REGION</attalias></attr></detailed></eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntper>Andrew Couturier</cntper>
+					<cntorg>Bird Studies Canada</cntorg>
+				</cntperp>
+				<cntpos>GIS Analyst</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>P.O. Box 160, 115 Front Street</address>
+					<city>Port Rowan</city>
+					<state>Ontario</state>
+					<postal>N0E 1M0</postal>
+					<country>Canada</country>
+				</cntaddr>
+				<cntvoice>+1-519-586-3531 ext 213</cntvoice>
+				<cntfax>+1-519-586-3532</cntfax>
+				<cntemail>acouturier@bsc-eoc.org</cntemail>
+			</cntinfo>
+		</distrib>
+		<resdesc>Downloadable Data</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>ARCE</formname>
+					<transize>1.132</transize>
+					<dssize Sync="TRUE">0.051</dssize></digtinfo>
+			</digform>
+			<fees>To be negotiated on a case by case basis</fees>
+			<ordering>Contact author/creator.</ordering>
+			<turnarnd>1-3 days</turnarnd>
+		</stdorder>
+		<custom>Contact author/creator.</custom>
+		<distliab>Author assumes no liability for use of the data by third parties.  Data are provided as is and are to be used at the user's own risk.</distliab></distinfo>
+	<metainfo>
+		<metd>20070813</metd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper>Andrew Couturier</cntper>
+					<cntorg>Bird Studies Canada</cntorg>
+				</cntperp>
+				<cntpos>GIS Analyst</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>P.O. Box 160, 115 Front Street</address>
+					<city>Port Rowan</city>
+					<state>Ontario</state>
+					<postal>N0E 1M0</postal>
+					<country>Canada</country>
+				</cntaddr>
+				<cntvoice>+1-519-586-3531 ext 213</cntvoice>
+				<cntfax>+1-519-586-3532</cntfax>
+				<cntemail>acouturier@bsc-eoc.org</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><MetaID>{03146DC4-2DD5-45C5-9AA7-5314546ED4A1}</MetaID><CreaDate>20070813</CreaDate><CreaTime>11281100</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20090720</SyncDate><SyncTime>13370600</SyncTime><ModDate>20090720</ModDate><ModTime>13370600</ModTime><DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20090720" Time="132817">CopyFeatures F:\data\projects\bcatlas\base_layers\bcbba_regions\polygon c:\temp\bcbba_regions_polygon.shp # 0 0 0</Process></lineage></DataProperties></Esri><dataqual><lineage><procstep><date Sync="TRUE">20070813</date><time Sync="TRUE">11281100</time></procstep></lineage></dataqual><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">bcatlas_regions</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">-139.208365</westBL><eastBL Sync="TRUE">-114.000022</eastBL><northBL Sync="TRUE">60.077121</northBL><southBL Sync="TRUE">48.211967</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-139.208365</westBL><eastBL Sync="TRUE">-114.000022</eastBL><northBL Sync="TRUE">60.077121</northBL><southBL Sync="TRUE">48.211967</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\GIS2\C$\temp\bcatlas_regions.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.051</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">GCS_North_American_1983</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="bcatlas_regions"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">42</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20090720</mdDateSt></metadata>

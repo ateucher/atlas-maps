@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "id": 9589, "properties": { "SQUARE_ID": "11NR80", "REGION": 1, "ZONE": 11, "BLOCK_ID": "11NR", "LINK": "http:\/\/www.birdatlas.bc.ca\/bcdata\/pdfdownload.jsp?squareID=11NR80", "Species": "Least Bittern", "Max_BE": "T", "BE_Category": "PROB", "Sq_number": "1", "Num_PC": "", "Percent_PC": null, "Abundance": null, "Num_of_Squares": null, "fill": "#FFFF00", "stroke": "#FFFF00" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -115.889756814843977, 49.737167948269573 ], [ -115.751009291325616, 49.735754977138228 ], [ -115.753311733027971, 49.645830973817077 ], [ -115.891803619255469, 49.647239485917879 ], [ -115.889756814843977, 49.737167948269573 ] ] ] } }
+]
+}
