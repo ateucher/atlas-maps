@@ -1,7 +1,7 @@
 ## Data
 
-The data in the csv files in the `/data` folder and in the geojson files in the `/maps` 
-folder are taken from the [BC Breeding Bird Atlas](http://www.birdatlas.bc.ca) website
+The data in the csv and shape files in the `/data` folder and in the geojson files in the 
+`/maps` folder are taken from the [BC Breeding Bird Atlas](http://www.birdatlas.bc.ca) website
 and are the property of Bird Studies Canada.
 
 ## Software
